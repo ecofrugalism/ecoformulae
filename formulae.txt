@@ -34,5 +34,10 @@ if you want to culaculate a weight of water expresssed in m³, know that 1 m³ =
 the weight in Newton can then be calculated by multiplying the weight in kg x 9,81
 
 References
+http://zebu.uoregon.edu/disted/ph162/l4.html
+http://ecgllp.com/files/3514/0200/1304/2-Solar-Radiation.pdf
+https://livingonsolarpower.wordpress.com/2013/03/23/basic-solar-energy-math/
+
+
 http://www.reuk.co.uk/wordpress/wind/calculation-of-wind-power/
 http://www.reuk.co.uk/wordpress/hydro/calculation-of-hydro-power/
