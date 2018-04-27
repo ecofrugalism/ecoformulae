@@ -3,7 +3,7 @@ electricity production
 -----------------
 
 solar (photovoltaïcs)
-electricity production in watt, per day = solar irradiation per hour (in watt, per m²) x hours of "full sun" per day x PV panel efficiency
+electricity production in watt, per day = solar irradiation per hour (in watt, per m²) x hours of direct sunlight per day x PV panel efficiency
 
 standard PV panel sizes are:
 65 x 39 inch = 165,1 x 99,06 cm = 16354,8 cm² = 1,63548 m²
@@ -24,9 +24,16 @@ batteries: see other repo
 hydro
 weight (in Newton) x height (in meter) x 0,0000002 = energy stored (in kWh)
 
-
 Notes
 For the electricity production (solar):
+for the solar irradiation per day: you can get this data from http://globalsolaratlas.info
+for the hours of direct sunlight: you can use the data from https://en.wikipedia.org/wiki/List_of_cities_by_sunshine_duration ;
+alternatively you can calculate it by subtracting the sunrise hour from the sunset hour
+the STC (Standard Testing Conditions) power output mentioned on PV panels are theoretical values and only useful for comparing 
+PV panels (the STC is calculated on peak solar irradiation -1000 W/m²- x the PV panel efficiency mentioned elsewhere on the PV 
+panel label (typically between 5 and 20%)
+Also note that besides using solar tracking, you should also keep PV panel temperature between 15 and 35°C (ideally 25°C), if 
+it gets hotter or colder than that, it will negatively affect efficiency
 
 For the electricity production (wind):
 swept area is calculated by (rotor diameter/2)² x 3,14
@@ -43,6 +50,5 @@ http://zebu.uoregon.edu/disted/ph162/l4.html
 http://ecgllp.com/files/3514/0200/1304/2-Solar-Radiation.pdf
 https://livingonsolarpower.wordpress.com/2013/03/23/basic-solar-energy-math/
 https://solarpowerrocks.com/solar-basics/how-much-electricity-does-a-solar-panel-produce/
-
 http://www.reuk.co.uk/wordpress/wind/calculation-of-wind-power/
 http://www.reuk.co.uk/wordpress/hydro/calculation-of-hydro-power/
