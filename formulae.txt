@@ -2,19 +2,21 @@
 energy production
 -----------------
 
+solar
+
+Energy in solar rays
+
+
 photovoltaïcs
 Standard PV sizes are:
 65 x 39 inch = 165,1 x 99,06 cm = 16354,8 cm² = 1,63548 m²
 75 x 39 inch = 198,2 x 99,06 cm = 19633,7 cm² = 1,96337 m²
 
-
-Energy in solar rays
-
 hydro
 height (in meter) x flow (in liter/second) x gravity (9,81) x turbine efficieny rate = electricity production
 
 
-wind turbines
+wind
 
 
 --------------
@@ -30,3 +32,7 @@ Notes
 For the energy storage (hydro):
 if you want to culaculate a weight of water expresssed in m³, know that 1 m³ = 1000 liter water = 1000 kg
 the weight in Newton can then be calculated by multiplying the weight in kg x 9,81
+
+References
+http://www.reuk.co.uk/wordpress/wind/calculation-of-wind-power/
+http://www.reuk.co.uk/wordpress/hydro/calculation-of-hydro-power/
