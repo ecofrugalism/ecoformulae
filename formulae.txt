@@ -32,6 +32,7 @@ Notes
 For the energy storage (hydro):
 if you want to culaculate a weight of water expresssed in m³, know that 1 m³ = 1000 liter water = 1000 kg
 the weight in Newton can then be calculated by multiplying the weight in kg x 9,81
+The 0,0000002 comes from the fact that 1 kWh = 3600000J
 
 References
 http://zebu.uoregon.edu/disted/ph162/l4.html
