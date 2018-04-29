@@ -9,6 +9,10 @@ standard PV panel sizes are:
 65 x 39 inch = 165,1 x 99,06 cm = 16354,8 cm² = 1,63548 m²
 75 x 39 inch = 198,2 x 99,06 cm = 19633,7 cm² = 1,96337 m²
 
+(bio)fuel
+liters of fuel in tank x kWh per liter of fuel = potential energy in tank (in kWh) 
+potential energy in tank (in kWh) x engine (or fuel cell + electric engine) efficiency = actual available energy
+
 hydro
 height (in meter) x flow (in liter/second) x gravity (9,81) x turbine efficieny rate = electricity production
 
@@ -19,12 +23,15 @@ electricity production per second = 0,5 x swept area (in m²) x air density (=1,
 energy storage
 --------------
 
-batteries: see other repo
+batteries:
+power (in watt) = electric potential (in volt) x electric current (in ampère)
+also see the other repo
 
 hydro
 weight (in Newton) x height (in meter) x 0,0000002 = energy stored (in kWh)
 
 Notes
+
 For the electricity production (solar):
 for the solar irradiation per day: you can get this data from http://globalsolaratlas.info
 for the hours of direct sunlight: you can use the data from https://en.wikipedia.org/wiki/List_of_cities_by_sunshine_duration ;
@@ -34,6 +41,10 @@ PV panels (the STC is calculated on peak solar irradiation -1000 W/m²- x the PV
 panel label (typically between 5 and 20%)
 Also note that besides using solar tracking, you should also keep PV panel temperature between 15 and 35°C (ideally 25°C), if 
 it gets hotter or colder than that, it will negatively affect efficiency
+
+For the electricity production (fuel):
+you can get energy density data for various fuels from 
+https://en.wikipedia.org/wiki/Energy_density#Energy_density_in_energy_storage_and_in_fuel
 
 For the electricity production (wind):
 swept area is calculated by (rotor diameter/2)² x 3,14
